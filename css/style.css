@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+.back-top {
+  width: 60px;
+  height: 60px;
+  bottom: 80px;
+  right: 30px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 999;
+  opacity: 0;
+}
+.back-top-show {
+  opacity: 1;
+  transition: 0.4s ease;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header {
+  background: url(../img/bg.png);
+  color: white;
+  padding-top: 52px;
+}
+
+.logo {
+  font-size: 25px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+.nav-item {
+  margin-left: 44px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+a.nav-link:hover {
+  color: black;
+  text-shadow: 0 0 5px #ff4500;
+}
+.offer {
+  max-height: 575px;
+}
+.offer p {
+  font-size: 37px;
+  margin-left: 145px;
+  margin-top: 130px;
+}
+.offer h1 {
+  font-size: 270px;
+  margin-left: -15px;
+  margin-top: -130px;
+}
+.img-hed {
+  position: relative;
+  left: 600px;
+  top: -580px;
+  max-height: 714px;
+}
+.info {
+  display: grid;
+  grid-column: 150px 150px;
+}
+.info h1 {
+  font-size: 72px;
+}

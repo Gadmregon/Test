@@ -11,10 +11,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 960px) {
   .container {
     max-width: 1140px;
     margin: 0 auto;
+  }
+  .img-1 {
+    display: none;
   }
 }
 .back-top {
@@ -107,8 +110,8 @@ a.nav-link:hover {
 .img-1 {
   position: absolute;
   right: -100px;
-  margin-top: 146px;
-  z-index: 1;
+  top: 146px;
+  z-index: 0;
 }
 .img-2 {
   position: absolute;
@@ -120,6 +123,7 @@ a.nav-link:hover {
   position: absolute;
   right: -285px;
   top: 100px;
+  z-index: 0;
 }
 .img-monitor {
   position: relative;
